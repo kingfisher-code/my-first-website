@@ -1,33 +1,414 @@
 html {
   font-size: 1rem;
-  font-family: "Noto Sans Warang Citi", serif;
+  background-size: cover;
   background-color: black;
+}
+.bigjohn {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+ion-icon {
+  color: blue;
+  font-size: 40px;
 }
 .website-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: gold;
   height: 100px;
+  padding: 0 5rem;
 }
 .navigation {
-  justify-content: space-evenly;
   display: inline;
+  justify-items: cente;
+  letter-spacing: 2px;
+
+  word-spacing: 4rem;
 }
 .footer-sector {
-  background-color: lightcoral;
+  background-color: #101f29;
+  color: white;
+  border: 100px;
 }
 .about-us {
-  background-color: goldenrod;
+  display: flex;
+  background-color: #ffffff;
   border: 2rem;
-  padding: 0 2rem;
+  padding: 2rem 2rem;
 }
-.form-file {
-  background-color: silver;
+.about-me {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.about-we {
+  display: block;
+  padding-bottom: 10rem;
+  font-stretch: expanded;
+}
+.about-them {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding-top: 12rem;
+  padding-left: 10rem;
+  border-width: 2rem;
+}
+.hospitality {
+  background-color: #f7f7fa;
+  display: flex;
+  justify-content: center;
+  width: 500px;
+}
+.housebar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: center;
+  font-size: 36px;
+  width: 300px;
+}
+.dinning {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  position: center;
+  width: 300px;
+}
+.swimmingpool {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  position: center;
+  width: 300px;
+}
+.toilet {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  position: center;
+  width: 300px;
+}
+.bedroom {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  position: center;
+  width: 300px;
+}
+.snooker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  position: center;
+  width: 300px;
+}
+.kitchen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  position: center;
+  width: 300px;
+}
+.containertwo {
+  position: relative;
+  text-align: center;
+  color: black;
+  display: flex;
+  width: 400px;
+  padding: 1rem 1rem;
+}
+.containerthree {
+  position: relative;
+  text-align: center;
+  color: black;
+  display: flex;
+  width: 400px;
+  padding: 1rem 1rem;
+}
+.containerfour {
+  position: relative;
+  text-align: center;
+  color: red;
+  display: flex;
+  width: 400px;
+  padding: 1rem 1rem;
+}
+.containerfive {
+  position: relative;
+  text-align: center;
+  color: red;
+  display: flex;
+  width: 400px;
+  padding: 1rem 1rem;
+}
+.containersix {
+  position: relative;
+  text-align: center;
+  color: red;
+  display: flex;
+  width: 400px;
+  padding: 1rem 1rem;
+}
+.containerseven {
+  position: relative;
+  text-align: center;
+  color: red;
+  display: flex;
+  width: 400px;
+  padding: 1rem 1rem;
+}
+.containereight {
+  position: relative;
+  text-align: center;
+  color: red;
+  display: flex;
+  width: 400px;
+  padding: 1rem 1rem;
+}
+.allcontainer {
+  background-color: #f7f7fa;
+  display: flex;
+}
+.somecontainer {
+  background-color: #f7f7fa;
+  display: flex;
+}
+.amenities {
+  background-color: #f7f7fa;
+  color: red;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+.correct {
+  background-color: #f7f7fa;
+  color: brown;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.luxury {
+  background-image: url(https://img.freepik.com/free-photo/vertical-shot-modern-white-building-with-light-coming-out-from-one-big-balcony-windows_181624-32628.jpg?t=st=1740808371~exp=1740811971~hmac=7643a2c949053f0492f5e98d3514e40ea4e8abce74d7bcc8455a4cbd397fd78a&w=740);
+  background-position: center;
+  color: white;
+  display: flex;
+}
+.summerluxury {
+  width: 600px;
+  padding: 2rem 2rem;
+}
+.enquiry {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10rem;
+}
+.enquiry button {
+  background-color: yellow;
+  padding: 1rem;
+}
+.gallery {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+  font-size: 38px;
+}
+.packages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+  font-size: 38px;
+}
+.image-a {
+  background-color: gray;
+  width: 400px;
+  height: 200px;
+  padding-bottom: 4rem;
+}
+.image-b {
+  width: 400px;
+  height: 200px;
+  padding-bottom: 4rem;
+  background-color: gray;
+}
+.image-c {
+  width: 400px;
+  height: 200px;
+  padding-bottom: 4rem;
+  background-color: gray;
+}
+.image-d {
+  width: 400px;
+  height: 200px;
+  padding-bottom: 4rem;
+  background-color: gray;
+}
+.imagesectiona {
+  display: flex;
+  background-color: aliceblue;
+}
+.imagesectionb {
+  display: flex;
+  background-color: aliceblue;
+}
+.section-about {
+  background-color: #f7f7fa;
+}
+
+.room-a {
+  background-color: whiteS;
+  display: flex;
+  padding: 2rem 2rem;
+}
+.room-b {
+  display: flex;
   padding: 2rem;
+}
+.room-c {
+  display: flex;
+  padding: 2rem;
+}
+.room-d {
+  display: flex;
+  padding: 2rem;
+}
+.singleroom {
+  width: 150px;
+  display: block;
+  padding-left: 1rem;
+  background-color: white;
+}
+.doubleroom {
+  background-color: white;
+  width: 150px;
+  display: block;
+  padding-left: 1rem;
+}
+.executive-suite {
+  background-color: white;
+  display: block;
+  padding-left: 1rem;
+  width: 150px;
+}
+
+.duplex-suite {
+  background-color: white;
+  width: 150px;
+  display: block;
+  padding-left: 1rem;
+}
+.rooms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.package-section {
+  background-color: white;
+}
+.peek {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scroll-container {
+  background-color: white;
+  display: flex;
+  overflow-x: scroll;
+  white-space: nowrap;
+  padding: 50px;
+}
+
+.first-picture {
+  width: 800px;
+  height: 400px;
+  padding: 2rem 2rem;
+}
+.second-picture {
+  width: 800px;
+  height: 400px;
+  padding: 2rem 2rem;
+}
+.fourth-picture {
+  width: 800px;
+  height: 400px;
+  padding: 2rem 2rem;
+}
+.third-picture {
+  width: 800px;
+  padding: 2rem 2rem;
+}
+.fifth-picture {
+  width: 800px;
+  padding: 2rem 2rem;
+}
+.sixth-picture {
+  width: 800px;
+  padding: 2rem 2rem;
+}
+
+/* .form-file {
+  display: flex;
+} */
+.form-row {
+  width: 400px;
+  padding: 2rem 5rem;
+  background-color: #101f29;
+  border-radius: 5%;
+  margin: 2rem;
+  color: white;
+  font-size: 28px;
+}
+.form-row button {
+  background-color: yellow;
+  padding: 1rem;
+  border-radius: 20%;
+}
+.form-case {
+  background-color: white;
+  display: flex;
+}
+
+.form-text {
+  padding-left: 2rem;
+  background-color: white;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+}
+.form-text button {
+  background-color: yellow;
+  padding: 1rem;
+  border-radius: 15%;
+}
+
+.form {
 }
 .list-table {
   background-color: darkgray;
-  display: flex;
+  display: block;
   justify-content: center;
   font-size: 3 8px;
 }
@@ -38,13 +419,17 @@ img {
 
 .hero-section {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
 
-  margin: 2rem 0;
+  /* margin: 2rem 0; */
   height: 90vh;
-  background: peachpuff;
+  /* width: 100%; */
+  background-image: url("../assets/images/max-van-den-oetelaar-WWo0yLdxD7k-unsplash.jpg");
+  background-position: center;
+  /* background-blend-mode: darken; */
+  /* background: peachpuff; */
 }
 
 .hero-section h1 {
@@ -57,5 +442,36 @@ img {
 }
 
 .hero-text {
-  padding: 2rem;
+  margin-top: 8rem;
+  color: white;
+}
+.footerme {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  align-items: center;
+  padding: 1rem;
+}
+.footeryou {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding: 1rem;
+}
+.copyfooter {
+  color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.contact-us {
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
